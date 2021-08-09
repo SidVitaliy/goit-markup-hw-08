@@ -1,0 +1,96 @@
+.main-middle{
+    max-width: 1600px;
+    background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url("../images/mobile/bg-main.jpg");
+        background-size: cover;
+        display: block;
+        padding-top: 118px;
+        padding-bottom: 118px;
+        margin: 0 auto;   
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url("../images/mobile/bg-main@2x.jpg");
+    }
+
+      @media screen and (min-width: 761px) {
+        background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url("../images/tablet/bg-main.jpg");
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url("../images/tablet/bg-main@2x.jpg");
+        }
+    
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url("../images/desktop/overlay-desktop.jpg");
+
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image:linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), url("../images/desktop/overlay-desktop@2x.jpg");
+        }
+    }
+}
+
+.main-middle-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-middle-container__title{
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;      
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-color);   
+   
+}
+
+
+    
+
+
+/* .main-middle{
+   
+    background-size: cover;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;  
+    background-image:linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url("../images/overlay.jpg");  
+    width: 1600px;
+    height: 600px;
+}
+
+.main-middle-container__title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;      
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-color);   
+   
+} */
