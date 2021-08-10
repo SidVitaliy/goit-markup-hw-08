@@ -65,6 +65,11 @@ body {
   color: var(--accent-color);
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -1308,6 +1313,7 @@ body {
 }
 
 .prtf-img-list__link-img {
+  width: 370px;
   text-decoration: none;
   transition: box-shadow var(--time-action) var(--timing-function);
 }

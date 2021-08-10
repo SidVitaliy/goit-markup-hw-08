@@ -1,15 +1,17 @@
 .prtf-img-list__link-img-thumb {
     position: relative;
     overflow: hidden;
+   
 }
 
 .prtf-img-list__prtf-overlay{
+    
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--accent-color);
+     background-color: var(--accent-color);
     color: var(--main-color);
     overflow: auto;
     padding: 63px 24px;
@@ -32,9 +34,12 @@
     margin-bottom: 30px;
 }
 
-.prtf-img-list__link-img{   
+
+.prtf-img-list__link-img{  
+    width: 370px; 
     text-decoration: none;
     transition: box-shadow var(--time-action) var(--timing-function);
+    
 
             &:hover,
             &:focus{
@@ -98,6 +103,8 @@
 }
 
 @media screen and (min-width: 1200px) {
+
+    
     .prtf-img-list{
         list-style-type: none;
         display: flex;    
