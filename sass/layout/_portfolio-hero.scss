@@ -12,13 +12,15 @@
 
 }
 
-.hero__button{
-    margin-bottom: 15px;
-
-        &:not(:last-child){
+.hero__button:not(:last-child){
      margin-right: 8px;
      }
+
+.mob-hero-btn{
+    margin-bottom: 15px;
 }
+
+
 
 .hero__button-desc{   
     font-family: var(--secondary-font);
