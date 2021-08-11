@@ -50,14 +50,6 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .main-middle{
-        padding-top: 200px;
-        padding-bottom: 200px;
-        height: 600px;
-    }
-    }
-
 .main-middle-container{
     padding-left: 15px;
     padding-right: 15px;
@@ -75,3 +67,13 @@
    
 }
 
+@media screen and (min-width: 1200px) {
+    .main-middle{
+        padding-top: 200px;
+        padding-bottom: 200px;
+        height: 600px;
+    }
+    .main-middle-container__title{
+        font-size: 44px;
+    }
+    }
